@@ -13,12 +13,12 @@ function UniCast() {
     <div>
       <Header />
       <Routes>
-        <Route path="/UniCast/" element={<MainPage />} />
-        <Route path="/UniCast/watch" element={<WatchPage />} />
-        <Route path="/UniCast/upload" element={<VideoUpload />} />
-        <Route path="/UniCast/search" element={<SearchPage />} /> {/* Маршрут для поиска */}
-        <Route path="/UniCast/register" element={<RegisterPage />} />
-        <Route path="/UniCast/login" element={<Login />} />
+        <Route path="/frontend/" element={<MainPage />} />
+        <Route path="/frontend/watch" element={<WatchPage />} />
+        <Route path="/frontend/upload" element={<VideoUpload />} />
+        <Route path="/frontend/search" element={<SearchPage />} /> {/* Маршрут для поиска */}
+        <Route path="/frontend/register" element={<RegisterPage />} />
+        <Route path="/frontend/login" element={<Login />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
